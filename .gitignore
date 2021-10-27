@@ -1,0 +1,12 @@
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/target/classes/com/capgemini/appianrpa/module/config/Constants.class
+/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/target/classes/com/capgemini/appianrpa/module/test/Execute$1.class
+/target/classes/com/capgemini/appianrpa/module/test/Execute.class
+/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/target/classes/com/capgemini/appianrpa/module/excel/ModuleExcel$1.class
+/target/classes/com/capgemini/appianrpa/module/excel/ModuleExcel.class
+/target/classes/META-INF/RobotBlankTemplate.json
+/target/classes/com/capgemini/appianrpa/module/RobotExcelTemplate.class
