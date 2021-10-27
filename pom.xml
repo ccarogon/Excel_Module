@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.novayre.jidoka.robot</groupId>
+    <artifactId>jidoka-robot-parent</artifactId>
+    <version>7.11.0</version>
+  </parent>
+    <groupId>com.capgemini.appianrpa.module</groupId>
+    <artifactId>excelModule</artifactId>
+    <version>0.0.1</version>
+    <name>excelModule</name>
+  <profiles>
+    <profile>
+      <id>jidoka-repo</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <distributionManagement>
+        <repository>
+          <id>jidoka</id>
+          <url>https://capgemini-spain-1016.appiancloud.com/rpa/repo/</url>
+        </repository>
+      </distributionManagement>
+      <repositories>
+        <repository>
+          <releases />
+          <snapshots />
+          <id>jidoka</id>
+          <url>https://capgemini-spain-1016.appiancloud.com/rpa/repo/</url>
+        </repository>
+        <repository>
+          <id>central</id>
+          <name>Central Repository</name>
+          <url>https://repo1.maven.org/maven2/</url>
+          <layout>default</layout>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <releases />
+          <snapshots />
+          <id>jidoka</id>
+          <url>https://capgemini-spain-1016.appiancloud.com/rpa/repo/</url>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+  </dependency>
+</dependencies>
+
+</project>
